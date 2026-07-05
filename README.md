@@ -23,7 +23,8 @@ game-dev background — I care about what code costs at runtime.
 | [fx-rates-service](https://github.com/abbas1123/fx-rates-service) | Central Bank of Azerbaijan rates API — **Resilience4j** retry/circuit breaker, Caffeine cache, stale-rate fallback |
 
 The three services form a small ecosystem: the payments API emits the event stream the analytics
-service consumes.
+service consumes. All three ship with green GitHub Actions pipelines, unit tests and design notes
+in their READMEs.
 
 ## Contact
 
